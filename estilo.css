@@ -1,3 +1,100 @@
 body {
+    max-width: 600px;
+    margin: 40px auto 0;
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
+h2{
+    border-top: solid 5px lightgrey;
+    margin-top: 50px;
+    padding-top: 50px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h2 span {
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 18px;
+    color: gray;
+    display:inline-block;
+    margin-left: 200px;
+}
+
+p{
+    color: gray;
+    text-align: justify;
+}
+
+#primeiro{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.azul{
+    color:blue;
+}
+
+[nome=menor]{
+    border: dotted 1px black;
+}
+
+footer{
+    margin-bottom: 200px;
+}
+
+ol{
     margin: 0;
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+li{
+    background-color: gray;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+li a{
+    text-decoration: none;
+}
+
+li a:visited{
+    color:black;
+}
+
+li a:hover{
+    color:white;
+    font-size: 18px;
+}
+
+.final{
+    width: 50px;
+    height: 50px;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    font-size: 24px;
+    margin: auto 15px auto;
+}
+
+.final:nth-child(1){
+    background-color: teal
+}
+
+.final:nth-child(2){
+    background-color: rgb(12, 105, 105)
+}
+
+.final:nth-child(3){
+    background-color: rgb(28, 92, 92)
+}
+
+.final:nth-child(4){
+    background-color: rgb(37, 85, 85)
+}
+
+.final:nth-child(5){
+    background-color: rgb(45, 83, 83)
 }
