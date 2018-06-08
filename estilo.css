@@ -98,3 +98,14 @@ li a:hover{
 .final:nth-child(5){
     background-color: rgb(45, 83, 83)
 }
+
+img{
+    border: red 1px solid;
+    position:relative; /* imagem pode ser reposicionada */
+    top:20px;
+    left: 100px;
+    /*position: sticky; coloca limite, a partir de qual momento o elemento fica fixo */
+    /*position: absolute; o elemento para no que está programado como não estático, com alguma position */
+    /*position: fixed, o elemento fica fixo, mesmo quando rola a página */
+    /*z-index onde o elemento deve aparecer, em cima ou embaixo de algo, z-index -1 coloca o elemento para traz e 1 para frente */
+}
